@@ -1,6 +1,6 @@
 ### **Home**
 
-## [**```About Me```**](./about-me.html)
+## [**```About Me```**](./about-me.html) [**```Blog```**](./blog.html)
 
 # Welcome to my work in progress website.
 
