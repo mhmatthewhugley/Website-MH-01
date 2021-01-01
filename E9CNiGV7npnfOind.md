@@ -1,8 +1,8 @@
-### **Convert 12 hour time to 24 hour time(military time)**
+# **Convert 12 hour time to 24 hour time(military time)**
 
-# Welcome, the content is below.
+## Blog: 1 Date: 12/27/2020
 
-## Firstly I am gonna be talking about why I am making this then I will talk about the actual process. Also this is how I personally convert time.
+### Welcome, Firstly I am gonna be talking about why I am making this then I will talk about the actual process. Also this is how I personally convert time.
 
 I am making this cause of these reasons.
 1. I told someone I was gonna write about this.
