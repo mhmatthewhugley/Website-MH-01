@@ -5,6 +5,6 @@ This is my website labeled as website-mh-01 originally started with a website on
 
 Shortened url is "https://is.gd/WebsiteMH01"
 
-Everything is Copyright © 2020 Matthew Hugley. All Rights Reverved.
+Another shortened url is "http://zpr.io/RfVws"
 
-Copyright © 2020 Matthew Hugley. Some Rights Reserved.
+Copyright © 2020,2021 Matthew Hugley. Some Rights Reserved.
