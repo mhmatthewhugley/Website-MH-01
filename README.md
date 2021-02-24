@@ -3,6 +3,8 @@ This is my website labeled as website-mh-01 originally started with a website on
 
 [Website link/url](https://mhmatthewhugley.github.io/website-mh-01/)
 
+Shortened url is "https://is.gd/WebsiteMH01"
+
 Everything is Copyright © 2020 Matthew Hugley. All Rights Reverved.
 
 Copyright © 2020 Matthew Hugley. Some Rights Reserved.
