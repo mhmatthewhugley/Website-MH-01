@@ -63,7 +63,7 @@ td, h1, h2, h3, h4, h5, p, ul, ol, li, form {
 		<br><br>
 		<input type="checkbox" name="agree" id="agree" onchange="activateButton(this)">  By clicking submit you agree to our <a href="https://www.matthewhugley.us.eu.org/privacy-policy.html">Privacy Policy</a> and <a href="https://www.matthewhugley.us.eu.org/terms-and-conditions.html">Terms & Coditions</a>.
 		<br><br>
-		<input type='submit' name='submit' value='Submit' id="submit" />
+		<input type='submit' name='submit' value='Submit' id="submit" onclick="if(!this.form.checkbox.checked){alert('You must agree to what was stated for it to be sent.');return false}" />
 	</form>
 	<!--This is the secton that is on every page and gives information about copyright and a link to the repository.-->
     <p>This website is on <a href="https://github.com/mhmatthewhugley/website-mh-01">GitHub</a>.</p>
