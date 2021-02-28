@@ -15,6 +15,22 @@
 
 		gtag('config', 'UA-187215884-2');
 	</script>
+	<script>
+		function disableSubmit() {
+			document.getElementById("submit").disabled = true;
+		}
+
+		function activateButton(element) {
+
+			if(element.checked) {
+				document.getElementById("submit").disabled = false;
+			}
+			else  {
+				document.getElementById("submit").disabled = true;
+			}
+
+		}
+	</script>
     <style type="text/css">
             
 /* Avoid page breaks inside the most common attributes, especially for exports (i.e. PDF) */
@@ -44,22 +60,6 @@ td, h1, h2, h3, h4, h5, p, ul, ol, li {
 		<input type='text' name='email' value='Email' />
 		<input type='text' name='subject' value='Subject' />
 		<textarea name="message" />Message</textarea>
-<script>
- function disableSubmit() {
-  document.getElementById("submit").disabled = true;
- }
-
-  function activateButton(element) {
-
-      if(element.checked) {
-        document.getElementById("submit").disabled = false;
-       }
-       else  {
-        document.getElementById("submit").disabled = true;
-      }
-
-  }
-</script>
 		<br><br>
 		<input type="checkbox" name="agree" id="agree" onchange="activateButton(this)">  By clicking submit you agree to our <a href="https://www.matthewhugley.us.eu.org/privacy-policy.html">Privacy Policy</a> and <a href="https://www.matthewhugley.us.eu.org/terms-and-conditions.html">Terms & Coditions</a>.
 		<br><br>
