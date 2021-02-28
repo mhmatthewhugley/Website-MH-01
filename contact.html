@@ -26,7 +26,7 @@ td, h1, h2, h3, h4, h5, p, ul, ol, li {
 
         </style>
   </head>
-  <body>
+  <body onload="disableSubmit()">
 	<!--This secton is saying what page you are on and a link to the primary page of the website.-->
 	<h1><a href="https://mhmatthewhugley.github.io/website-mh-01">Website-MH-01</a></h1>
     <h3 id="contact">
@@ -44,17 +44,25 @@ td, h1, h2, h3, h4, h5, p, ul, ol, li {
 		<input type='text' name='email' value='Email' />
 		<input type='text' name='subject' value='Subject' />
 		<textarea name="message" />Message</textarea>
-		<div id="i_agree_checkbox"></div>
-		<!-- I Agree Checkbox by https://www.TermsFeed.com -->
-		<script type="text/javascript" src="//www.termsfeed.com/public/i-agree-checkbox/releases/1.0.0/i-agree-checkbox.js"></script>
-		<script type="text/javascript">
-			document.addEventListener('DOMContentLoaded', function () {
-			i_agree_checkbox.run({"palette":"light","terms_and_conditions_url":"https://www.matthewhugley.us.eu.org/terms-and-conditions.html","privacy_policy_url":"https://www.matthewhugley.us.eu.org/privacy-policy.html","privacy_policy_text_container_id":"#user_i_agree_checkbox_privacy_policy_text_container","terms_and_conditions_text_container_id":"#user_i_agree_checkbox_terms_and_conditions_text_container","warning_dialog_text":"Warning. You must accept our terms.","consent_to_agreements":["privacy_policy","terms_and_conditions"],"agreements_display_type":"link","checkbox_text_area_id":"#i_agree_checkbox","checkbox_text":"By clicking submit you agree to our %PrivacyPolicy% and %TermsAndConditions%.","submit_button_id":"#send","agree_button_text":"OK","close_button_text":"Cancel"});
-			});
-		</script>
-		<noscript>I Agree Checkbox by <a href="https://www.TermsFeed.com/i-agree-checkbox/" rel="nofollow noopener">TermsFeed.com</a></noscript>
-		<!-- End I Agree Checkbox -->
-		<input id="send" type='submit' value='Send' />
+<script>
+ function disableSubmit() {
+  document.getElementById("send").disabled = true;
+ }
+
+  function activateButton(element) {
+
+      if(element.checked) {
+        document.getElementById("send").disabled = false;
+       }
+       else  {
+        document.getElementById("send").disabled = true;
+      }
+
+  }
+</script>
+		<input type="checkbox" name="agree" id="agree" onchange="activateButton(this)">  I Agree <a href="https://www.matthewhugley.us.eu.org/terms-and-conditions.html">Terms & Coditions</a> And <a href="https://www.matthewhugley.us.eu.org/privacy-policy.html">Privacy Policy</a>
+		<br><br>
+		<input type='submit' name='send' value='Send' id="send" />
 	</form>
 	<!--This is the secton that is on every page and gives information about copyright and a link to the repository.-->
     <p>This website is on <a href="https://github.com/mhmatthewhugley/website-mh-01">GitHub</a>.</p>
