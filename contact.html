@@ -16,13 +16,20 @@
 		gtag('config', 'UA-187215884-2');
 	</script>
 	<script>
-		$('input').click(function (event) {
-		if ($(this).hasClass('disabled')) {
-            alert('You must agree to what was stated for it to be sent.');
-		} else {
-            alert('By clicking submit you agree to our <a href="https://www.matthewhugley.us.eu.org/privacy-policy.html">Privacy Policy</a> and <a href="https://www.matthewhugley.us.eu.org/terms-and-conditions.html">Terms & Coditions</a>.');
-        }
-		});
+		function disableSubmit() {
+			document.getElementById("submit").disabled = true;
+		}
+
+		function activateButton(element) {
+
+			if(element.checked) {
+				document.getElementById("submit").disabled = false;
+			}
+			else  {
+				document.getElementById("submit").disabled = true;
+			}
+
+		}
 	</script>
     <style type="text/css">
             
@@ -32,16 +39,11 @@ td, h1, h2, h3, h4, h5, p, ul, ol, li, form {
 	max-width: 500px;
 	margin: auto;
 	text-align: center;
-	.disabled
-	{
-		background-color: #DDD;
-		color: #999;
-	}
 }
 
         </style>
   </head>
-  <body>
+  <body onload="disableSubmit()">
 	<!--This secton is saying what page you are on and a link to the primary page of the website.-->
 	<h1><a href="https://mhmatthewhugley.github.io/website-mh-01">Website-MH-01</a></h1>
 	<br>
@@ -64,9 +66,9 @@ td, h1, h2, h3, h4, h5, p, ul, ol, li, form {
 		<input type='text' name='subject' value='Subject' />
 		<textarea name="message" />Message</textarea>
 		<br><br>
-		<input type="checkbox" name="agree" id="agree" />
+		<input type="checkbox" name="agree" id="agree" onchange="activateButton(this)">  By clicking submit you agree to our <a href="https://www.matthewhugley.us.eu.org/privacy-policy.html">Privacy Policy</a> and <a href="https://www.matthewhugley.us.eu.org/terms-and-conditions.html">Terms & Coditions</a>.
 		<br><br>
-		<input type='submit' name='submit' value='Submit' id="submit" class="disabled" />
+		<input type='submit' name='submit' value='Submit' id="submit" onclick="if(!this.form.checkbox.checked){alert('You must agree to what was stated for it to be sent.');return false}" />
 	</form>
 	<br>
 	<!--This is the secton that is on every page and gives information about copyright and a link to the repository.-->
