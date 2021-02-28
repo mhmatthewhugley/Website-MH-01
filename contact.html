@@ -46,23 +46,23 @@ td, h1, h2, h3, h4, h5, p, ul, ol, li {
 		<textarea name="message" />Message</textarea>
 <script>
  function disableSubmit() {
-  document.getElementById("send").disabled = true;
+  document.getElementById("submit").disabled = true;
  }
 
   function activateButton(element) {
 
       if(element.checked) {
-        document.getElementById("send").disabled = false;
+        document.getElementById("submit").disabled = false;
        }
        else  {
-        document.getElementById("send").disabled = true;
+        document.getElementById("submit").disabled = true;
       }
 
   }
 </script>
-		<input type="checkbox" name="agree" id="agree" onchange="activateButton(this)">  I Agree <a href="https://www.matthewhugley.us.eu.org/terms-and-conditions.html">Terms & Coditions</a> And <a href="https://www.matthewhugley.us.eu.org/privacy-policy.html">Privacy Policy</a>
+		<input type="checkbox" name="agree" id="agree" onchange="activateButton(this)">  By clicking submit you agree to our <a href="https://www.matthewhugley.us.eu.org/privacy-policy.html">Privacy Policy</a> and <a href="https://www.matthewhugley.us.eu.org/terms-and-conditions.html">Terms & Coditions</a>
 		<br><br>
-		<input type='submit' name='send' value='Send' id="send" />
+		<input type='submit' name='submit' value='Submit' id="submit" />
 	</form>
 	<!--This is the secton that is on every page and gives information about copyright and a link to the repository.-->
     <p>This website is on <a href="https://github.com/mhmatthewhugley/website-mh-01">GitHub</a>.</p>
