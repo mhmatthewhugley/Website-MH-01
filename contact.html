@@ -66,7 +66,7 @@ td, h1, h2, h3, h4, h5, p, ul, ol, li, form {
 		<input type='text' name='subject' value='Subject' />
 		<textarea name="message" />Message</textarea>
 		<br><br>
-		<input type="checkbox" name="agree" id="agree" onclick="return confirm('Are you sure?')" onchange="activateButton(this)">  By clicking submit you agree to our <a href="https://www.matthewhugley.us.eu.org/privacy-policy.html">Privacy Policy</a> and <a href="https://www.matthewhugley.us.eu.org/terms-and-conditions.html">Terms & Coditions</a>.
+		<input type="checkbox" name="agree" id="agree" onclick="return confirm('Are you sure? By confirming you agree that you have read and agree to the Privacy Policy and the Terms & Coditions')" onchange="activateButton(this)">  By clicking submit you agree to our <a href="https://www.matthewhugley.us.eu.org/privacy-policy.html">Privacy Policy</a> and <a href="https://www.matthewhugley.us.eu.org/terms-and-conditions.html">Terms & Coditions</a>.
 		<br><br>
 		<input type='submit' name='submit' value='Submit' id="submit" onclick="if(!this.form.checkbox.checked){alert('You must agree to what was stated for it to be sent.');return false}" />
 	</form>
