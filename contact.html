@@ -50,11 +50,12 @@ td, h1, h2, h3, h4, h5, p, ul, ol, li, form {
 		<input type='text' name='subject' value='Subject' />
 		<textarea name="message" />Message</textarea>
 		<br><br>
-		By clicking submit you agree to our <a href="https://www.matthewhugley.us.eu.org/privacy-policy.html">Privacy Policy</a> and <a href="https://www.matthewhugley.us.eu.org/terms-and-conditions.html">Terms & Coditions</a>.
+		By checking the checkbox, you confirm that you have read our <a href="https://www.matthewhugley.us.eu.org/privacy-policy.html">Privacy Policy</a> and <a href="https://www.matthewhugley.us.eu.org/terms-and-conditions.html">Terms & Coditions</a>.
 		<br>
-		<input type="checkbox" name="agree" onchange="document.getElementById('submit').disabled = !this.checked;" onclick="return confirm('Are you sure? By confirming you agree that you have read and agree to the Privacy Policy and the Terms & Coditions')" />
+		<input type="checkbox" name="agree" onchange="document.getElementById('submit').disabled = !this.checked;" onclick="return confirm('Are you sure? By confirming, you agree that you have read and agree to the Privacy Policy and the Terms & Coditions')" />
 		<br><br>
-		<input disabled type='submit' class="inputButton" name='submit' value='Submit' id="submit" onclick="if(!this.form.checkbox.checked){alert('You must agree to what was stated for it to be sent.');return false}" />
+		By clicking, submit you agree to our <a href="https://www.matthewhugley.us.eu.org/privacy-policy.html">Privacy Policy</a> and <a href="https://www.matthewhugley.us.eu.org/terms-and-conditions.html">Terms & Coditions</a>.
+		<input disabled type='submit' class="inputButton" name='submit' value='Submit' id="submit" onclick="return confirm('Are you sure? By confirming, you will be redirected to another page after succesfully being sent.')" />
 	</form>
 	<br>
 	<!--This is the secton that is on every page and gives information about copyright and a link to the repository.-->
