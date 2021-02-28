@@ -15,22 +15,6 @@
 
 		gtag('config', 'UA-187215884-2');
 	</script>
-	<script>
-		function disableSubmit() {
-			document.getElementById("submit").disabled = true;
-		}
-
-		function activateButton(element) {
-
-			if(element.checked) {
-				document.getElementById("submit").disabled = false;
-			}
-			else  {
-				document.getElementById("submit").disabled = true;
-			}
-
-		}
-	</script>
     <style type="text/css">
             
 /* Avoid page breaks inside the most common attributes, especially for exports (i.e. PDF) */
@@ -42,7 +26,7 @@ td, h1, h2, h3, h4, h5, p, ul, ol, li, form {
 
         </style>
   </head>
-  <body onload="disableSubmit()">
+  <body>
 	<!--This secton is saying what page you are on and a link to the primary page of the website.-->
 	<h1><a href="https://mhmatthewhugley.github.io/website-mh-01">Website-MH-01</a></h1>
     <h3 id="contact">
@@ -52,7 +36,7 @@ td, h1, h2, h3, h4, h5, p, ul, ol, li, form {
     <h1 id="this-is-the-contact-page">This is the contact page.</h1>
     <p>If you want a reply then a email is required.</p>
     <p>If you want to just provide a suggestion no email is required.</p>
-	<form action="https://getsimpleform.com/messages?form_api_token=f8c1ac4c54108bed25e55f3c7f86e7b1" method="post">
+	<form action="https://getsimpleform.com/messages?form_api_token=f8c1ac4c54108bed25e55f3c7f86e7b1" method="post" onsubmit="if(document.getElementById('agree').checked) { return true; } else { alert('Please check the checkbox to indicate that you have read and agree to the <a href="https://www.matthewhugley.us.eu.org/privacy-policy.html">Privacy Policy</a> and <a href="https://www.matthewhugley.us.eu.org/terms-and-conditions.html">Terms & Coditions</a>.'); return false; }">
 		<!-- the redirect_to is optional, the form will redirect to the referrer on submission -->
 		<input type='hidden' name='redirect_to' value='https://mhmatthewhugley.github.io/website-mh-01/thank-you.html' />
 		<!-- all your input fields here.... -->
@@ -61,9 +45,9 @@ td, h1, h2, h3, h4, h5, p, ul, ol, li, form {
 		<input type='text' name='subject' value='Subject' />
 		<textarea name="message" />Message</textarea>
 		<br><br>
-		<input type="checkbox" name="agree" id="agree" onchange="activateButton(this)">  By clicking submit you agree to our <a href="https://www.matthewhugley.us.eu.org/privacy-policy.html">Privacy Policy</a> and <a href="https://www.matthewhugley.us.eu.org/terms-and-conditions.html">Terms & Coditions</a>.
+		<input type="checkbox" name="checkbox" value="Check" id="agree" /> By clicking submit you agree to our <a href="https://www.matthewhugley.us.eu.org/privacy-policy.html">Privacy Policy</a> and <a href="https://www.matthewhugley.us.eu.org/terms-and-conditions.html">Terms & Coditions</a>.
 		<br><br>
-		<input type='submit' name='submit' value='Submit' id="submit" />
+		<input type='submit' name='submit' value='Submit' />
 	</form>
 	<!--This is the secton that is on every page and gives information about copyright and a link to the repository.-->
     <p>This website is on <a href="https://github.com/mhmatthewhugley/website-mh-01">GitHub</a>.</p>
