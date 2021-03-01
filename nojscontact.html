@@ -1,0 +1,56 @@
+<!DOCTYPE html []>
+<html>
+  <head>
+	<!--Below is basic stuff.-->
+    <meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<meta name="author" content="Matthew Hugley" />
+    <title>NoJSContact | Website-MH-01</title>
+    <style type="text/css">
+            
+/* Avoid page breaks inside the most common attributes, especially for exports (i.e. PDF) */
+td, h1, h2, h3, h4, h5, p, ul, ol, li, form {
+    page-break-inside: avoid; 
+	max-width: 500px;
+	margin: auto;
+	text-align: center;
+}
+
+        </style>
+  </head>
+  <body>
+	<!--This secton is saying what page you are on and a link to the primary page of the website.-->
+	<h1><a href="https://mhmatthewhugley.github.io/website-mh-01">Website-MH-01</a></h1>
+	<br>
+    <h3 id="contact">
+      <strong>Contact</strong>
+    </h3>
+	<br>
+	<!--Below is the content of the page.-->
+    <h1 id="this-is-the-contact-page">This is the contact page.</h1>
+	<br>
+    <p>If you want a reply then a email is required.</p>
+    <p>If you want to just provide a suggestion no email is required.</p>
+	<br>
+	<form action="https://getsimpleform.com/messages?form_api_token=f8c1ac4c54108bed25e55f3c7f86e7b1" method="post">
+		<!-- the redirect_to is optional, the form will redirect to the referrer on submission -->
+		<input type='hidden' name='redirect_to' value='https://mhmatthewhugley.github.io/website-mh-01/thank-you.html' />
+		<!-- all your input fields here.... -->
+		<input type="text" name="name" value='Name' />
+		<input type='text' name='email' value='Email' />
+		<input type='text' name='subject' value='Subject' />
+		<textarea name="message" />Message</textarea>
+		<br>
+		<br>
+		By clicking, submit you confirm that you have read and agree to our <a href="https://www.matthewhugley.us.eu.org/privacy-policy.html">Privacy Policy</a> and <a href="https://www.matthewhugley.us.eu.org/terms-and-conditions.html">Terms & Coditions</a>.
+		<br>
+		<input type='submit' name='submit' value='Submit' />
+	</form>
+	<br>
+	<!--This is the secton that is on every page and gives information about copyright and a link to the repository.-->
+	<br>
+    <p>This website is on <a href="https://github.com/mhmatthewhugley/website-mh-01">GitHub</a>.</p>
+	<br>
+    <p>Copyright © 2020,2021 Matthew Hugley. Some Rights Reserved.</p>
+  </body>
+</html>
