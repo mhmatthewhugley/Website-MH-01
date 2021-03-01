@@ -49,12 +49,15 @@ td, h1, h2, h3, h4, h5, p, ul, ol, li, form {
 		<input type='text' name='email' value='Email' />
 		<input type='text' name='subject' value='Subject' />
 		<textarea name="message" />Message</textarea>
-		<br><br>
+		<br>
+		<noscript>Sorry, your browser does not support JavaScript or you have it disabled. That means you cannot submit the form. You should only be seeing this text if you do not have javascript or it is not enabled. I am sorry for the inconvienace I am working on a alternative form for people without javascript or when it is not enabled.</noscript>
+		<br>
 		By checking the checkbox, you confirm that you have read our <a href="https://www.matthewhugley.us.eu.org/privacy-policy.html">Privacy Policy</a> and <a href="https://www.matthewhugley.us.eu.org/terms-and-conditions.html">Terms & Coditions</a>.
 		<br>
 		<input type="checkbox" name="agree" onchange="document.getElementById('submit').disabled = !this.checked;" onclick="return confirm('Are you sure?')" />
 		<br><br>
 		By clicking, submit you agree to our <a href="https://www.matthewhugley.us.eu.org/privacy-policy.html">Privacy Policy</a> and <a href="https://www.matthewhugley.us.eu.org/terms-and-conditions.html">Terms & Coditions</a>.
+		<br>
 		<input disabled type='submit' class="inputButton" name='submit' value='Submit' id="submit" onclick="return confirm('Are you sure? By confirming, the form will be sent, and you will be redirected to another page.')" />
 	</form>
 	<br>
