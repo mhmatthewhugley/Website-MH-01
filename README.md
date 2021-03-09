@@ -3,9 +3,7 @@ This is my website labeled as website-mh-01 originally started with a website on
 
 [Website link/url](https://mhmatthewhugley.github.io/website-mh-01)
 
-Shortened url is "https://is.gd/WebsiteMH01"
-
-Alternative is "https://is.gd/MatthewHugley"
+Shortened url is "https://is.gd/MatthewHugley"
 
 Another shortened url is "http://zpr.io/RfBp7" I need to look more into this one might discontinue use.
 
