@@ -9,12 +9,6 @@ Shortened url's are:
 
 "https://is.gd/MatthewHugley"
 
-"http://bit.do/MatthewHugley"
-
 "https://tinyurl.com/MatthewHugley"
-
-"http://zpr.io/RfBp7" I need to look more into this one might discontinue use.
-
-"http://tiny.cc/MatthewHugley"
 
 Copyright © 2020,2021 Matthew Hugley. Some Rights Reserved.
