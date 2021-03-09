@@ -1,7 +1,7 @@
 # website-mh-01
 This is my website labeled as website-mh-01 originally started with a website on 6-6-2020 this is the most updated version currently. This is description is Temporary. This website is in progress all things are subject to change.
 
-[Website link/url (auto redirects to appropriate url even if domain name is changed.)](https://mhmatthewhugley.github.io/website-mh-01)
+[Website link/url](https://mhmatthewhugley.github.io/website-mh-01) (auto redirects to appropriate url even if domain name is changed.)
 
 Current Website url is: "https://www.matthewhugley.us.eu.org"
 
