@@ -5,6 +5,8 @@ This is my website labeled as website-mh-01 originally started with a website on
 
 Shortened url is "https://is.gd/WebsiteMH01"
 
-Another shortened url is "http://zpr.io/RfBp7"
+Alternative is "https://is.gd/MatthewHugley"
+
+Another shortened url is "http://zpr.io/RfBp7" I need to look more into this one might discontinue use.
 
 Copyright © 2020,2021 Matthew Hugley. Some Rights Reserved.
