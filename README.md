@@ -7,6 +7,6 @@ Current Website url is: "https://www.matthewhugley.us.eu.org"
 
 Shortened url is:
 
-"https://tinyurl.com/WMH01"  I need to update this.
+"https://tinyurl.com/WMH01"
 
 Copyright © 2020,2021 Matthew Hugley. Some Rights Reserved.
