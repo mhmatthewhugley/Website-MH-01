@@ -3,10 +3,10 @@ This is my website labeled as Website-MH-01 originally started with a website on
 
 [Website link/url](https://mhmatthewhugley.github.io/Website-MH-01) (auto redirects to appropriate url even if domain name is changed.)
 
-Current Website url is: 'https://www.matthewhugley.us.eu.org'
+Current Website url is: "https://www.matthewhugley.us.eu.org"
 
 Shortened url is:
 
-'https://tinyurl.com/WMH01'
+"https://tinyurl.com/WMH01"
 
 Copyright © 2020,2021 Matthew Hugley. Some Rights Reserved.
