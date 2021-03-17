@@ -16,14 +16,28 @@
             h4,
             h5,
             h6,
+            div,
             p,
             ul,
             ol,
-            li {
+            li,
+            form {
                 page-break-inside: avoid;
                 max-width: 500px;
                 margin: auto;
                 text-align: center;
+            }
+            .alert {
+                padding: 20px;
+                background-color: #2196f3;
+                color: white;
+                margin-bottom: 15px;
+            }
+            .alertwarning {
+                padding: 20px;
+                background-color: #ff9800;
+                color: white;
+                margin-bottom: 15px;
             }
         </style>
     </head>
@@ -42,6 +56,12 @@
             <strong>Convert 12 hour time to 24 hour time(military time)</strong>
         </h1>
         <h2 id="blogdateupdated">Blog: 1 Date: 2020-12-27 Updated: 2021-03-16</h2>
+        <div hidden>
+            <br />
+            <h3 class="alertwarning"><strong>Warning!</strong> This page is in development.</h3>
+            <h3 class="alert"><strong>Info!</strong> Currently as of 2021-03-16 the contact form is confirmed not working.</h3>
+            <br />
+        </div>
         <!--Below is the content of the page.-->
         <h3 id="welcome-firstly-i-am-gonna-be-talking-about-why-i-am-making-this-then-i-will-talk-about-the-actual-process.also-this-is-how-i-personally-convert-time">
             Welcome, Firstly I am gonna be talking about why I am making this then I will talk about the actual process. Also this is how I personally convert time.
