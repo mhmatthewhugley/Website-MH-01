@@ -68,19 +68,21 @@
         <p>If you want a reply then a email is required.</p>
         <p>If you want to just provide a suggestion no email is required.</p>
         <br />
-        <form action="https://getsimpleform.com/messages?form_api_token=f8c1ac4c54108bed25e55f3c7f86e7b1" method="post">
-            <!-- the redirect_to is optional, the form will redirect to the referrer on submission -->
-            <input type="hidden" name="redirect_to" value="https://mhmatthewhugley.github.io/Website-MH-01/thank-you.html" />
-            <!-- all your input fields here.... -->
-            <input type="text" name="name" placeholder="Name" />
-            <input type="text" name="email" placeholder="Email" />
-            <input type="text" name="subject" placeholder="Subject" />
-            <textarea name="message" placeholder="Message" /></textarea>
+        <form action="mailto:hello@matthewhugley.us.eu.org" method="POST" enctype=”multipart/form-data” name=”Form”>
+            Name:<br />
+            <input type="text" size=”24″ name="Name" placeholder="Name" /><br /><br />
+            Email:<br />
+            <input type="text" size=”24″ name="Email" placeholder="Email" /><br /><br />
+            Subject:<br />
+            <input type="text" size=”24″ name="Subject" placeholder="Subject" /><br /><br />
+            Message:<br />
+            <textarea name="Message" rows=”4″ cols=”20″ placeholder="Message" ></textarea>
             <br />
             <br />
             <h6 id="legaltext">By clicking submit, you confirm that you have read and agree to our <a href="./privacy-policy.html">Privacy Policy</a> and <a href="./terms-and-conditions.html">Terms & Coditions</a>.</h6>
             <br />
-            <input type="submit" name="submit" value="Submit" />
+            <br />
+            <input type="submit" name="Submit" value="Submit" />
         </form>
         <br />
         <!--This is the secton that is on every page and gives information about copyright and a link to the repository.-->
