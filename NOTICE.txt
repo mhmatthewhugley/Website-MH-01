@@ -1,8 +1,9 @@
-<h2 style="text-align: center;"><b>Notice</b></h2>
+Notice
+
 Last updated: 2021-04-5
 
-All text, media, multimedia, and photos are licensed under <a href="./LICENSE">CC-BY-SA-4.0</a> unless otherwise stated.
-All code is licensed under <a href="./LICENSE2">Apache License 2.0</a> unless otherwise stated.
+All text, media, multimedia, and photos are licensed under CC-BY-SA-4.0 (Name of file is LICENSE.txt) unless otherwise stated.
+All code is licensed under Apache License 2.0 (Name of file is LICENSE2.txt) unless otherwise stated.
 
 Contributors:
    [name] [username]
