@@ -6,9 +6,11 @@ All text, media, multimedia, and photos are licensed under CC-BY-SA-4.0 (Name of
 All code is licensed under Apache License 2.0 (Name of file is LICENSE2.txt) unless otherwise stated.
 
 Contributors:
+   Matthew Hugley mhmatthewhugley
    [name] [username]
 
 Copyright holders:
+   Copyright 2020,2021 Matthew Hugley
    Copyright [yyyy] [name of copyright owner]
 
    APPENDIX: How to apply the Apache License to your work.
