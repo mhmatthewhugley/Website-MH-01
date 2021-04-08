@@ -10,3 +10,4 @@ Shortened url is:
 "https://tinyurl.com/WMH01"
 
 Copyright © 2020,2021 Matthew Hugley. Some Rights Reserved.
+[Notice/Information.](./NOTICE.txt)
