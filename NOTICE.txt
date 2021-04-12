@@ -7,10 +7,12 @@ All code is licensed under Apache License 2.0 (Name of file is LICENSE2.txt) unl
 
 Contributors:
    Matthew Hugley mhmatthewhugley
+   Nyatsuru
    [name] [username]
 
 Copyright holders:
    Copyright 2020,2021 Matthew Hugley
+   Copyright 2021 Nyatsuru
    Copyright [yyyy] [name of copyright owner]
 
    APPENDIX: How to apply the Apache License to your work.
