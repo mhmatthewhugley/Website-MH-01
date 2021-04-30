@@ -9,6 +9,8 @@ Shortened url is:
 
 "https://tinyurl.com/WMH01"
 
+[Code Of Conduct.](./CODE_OF_CONDUCT.md)
+
 ## Website is located in the [gh-pages](https://github.com/mhmatthewhugley/website-mh-01/tree/gh-pages) branch.
 
 Copyright © 2020,2021 Matthew Hugley. Some Rights Reserved.
