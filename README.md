@@ -13,4 +13,4 @@ Shortened url is:
 
 Copyright © 2020,2021 Matthew Hugley. Some Rights Reserved.
 
-[Notice/Information.](./NOTICE.txt)
+[Notice/Information.](./gh-pages/NOTICE.txt)
