@@ -13,8 +13,8 @@ Shortened url is:
 
 Issue Templates [Link](./.github/ISSUE_TEMPLATE).
 
-## Website is located in the [gh-pages](./tree/gh-pages) branch.
+## Website is located in the [gh-pages](https://github.com/mhmatthewhugley/Website-MH-01/tree/gh-pages) branch.
 
 Copyright © 2020,2021 Matthew Hugley. Some Rights Reserved.
 
-[Notice/Information](./gh-pages/NOTICE.txt).
+[Notice/Information](https://github.com/mhmatthewhugley/Website-MH-01/blob/gh-pages/NOTICE.txt).
