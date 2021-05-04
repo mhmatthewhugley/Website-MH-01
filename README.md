@@ -10,6 +10,7 @@ Shortened url is:
 "https://tinyurl.com/WMH01"
 
 [Code Of Conduct](./CODE_OF_CONDUCT.md).
+Issue Templates [Link](./.github/ISSUE_TEMPLATE).
 
 ## Website is located in the [gh-pages](https://github.com/mhmatthewhugley/website-mh-01/tree/gh-pages) branch.
 
