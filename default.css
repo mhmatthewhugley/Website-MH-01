@@ -1,0 +1,60 @@
+<style type="text/css">
+/* Avoid page breaks inside the most common attributes, especially for exports (i.e. PDF) */
+td,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+div,
+table,
+thead,
+tr,
+th,
+tbody,
+tfoot,
+td,
+p,
+ul,
+ol,
+li,
+a,
+form {
+    page-break-inside: avoid;
+    max-width: 500px;
+    margin: auto;
+    text-align: center;
+}
+img {
+    width: 100%;
+    height: auto;
+}
+.alert {
+    padding: 20px;
+    background-color: #2196f3;
+    color: white;
+    margin-bottom: 15px;
+}
+.alertwarning {
+    padding: 20px;
+    background-color: #ff9800;
+    color: white;
+    margin-bottom: 15px;
+}
+.table {
+    font-size: 12px;
+    border: 1px solid #ccc;
+    font-family: Verdana, Geneva, sans-serif;
+}
+.table td {
+    padding: 4px;
+    margin: 3px;
+    border: 1px solid #ccc;
+}
+.table th {
+    background-color: #000000;
+    color: #fff;
+    font-weight: bold;
+}
+</style>
