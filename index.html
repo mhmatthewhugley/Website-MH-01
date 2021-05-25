@@ -12,71 +12,80 @@
         <link rel="stylesheet" type="text/css" href="default.css" media="all" />
     </head>
     <body>
-        <!--The line of code below this coment is the logo.-->
-        <img src="logo_transparent.png" alt="OnTheGoTechnology Logo" />
-        <!--This secton is the information js message, global-disclaimer and this section says what page you are on and a link to the primary page of the website.-->
-        <noscript>
+        <input id="color-mode" type="checkbox" name="color-mode" />
+        <label for="color-mode">
+            <span class="dark-mode-hide">Dark Mode</span>
+            <span class="light-mode-hide">Light Mode</span>
+        </label>
+        <div class="color-scheme-wrapper">
+            <!--The line of code below this coment is the logo.-->
+            <img src="logo_transparent.png" alt="OnTheGoTechnology Logo" />
+            <!--This secton is the information js message, global-disclaimer and this section says what page you are on and a link to the primary page of the website.-->
+            <noscript>
+                <br />
+                <h6 id="jsinformaltext">
+                    <p>Hello! The browser you are using does not support JavaScript or you have it disabled. For more information about this message and JS information go <a href="./blog3.html">here</a>.</p>
+                </h6>
+                <br />
+            </noscript>
+            <h6 id="global-disclaimer">By using this website, you agree to the <a href="./disclaimers.html">Disclaimers</a> and the <a href="./privacy-policies.html">Privacy Policies</a>.</h6>
+            <h1><a href="https://mhmatthewhugley.github.io/Website-MH-01">Website-MH-01</a></h1>
+            <h3 id="home">
+                <strong>Home</strong>
+            </h3>
+            <div>
+                <br />
+                <h3 class="alertwarning">
+                    <strong>Warning!</strong> This message is about the original website which is at the domain name "matthewh.xyz". The website is currently showing a navigation section to browse the archived website.
+                </h3>
+                <h3 class="alert">
+                    <strong>Info!</strong> That domain name will be expiring soon, and once that happens it will be switched over to github(s) then the file(s) may be edited. And the github repository will either stay active for archival
+                    purposes or it will be disabled and the repo will be archived and no further changes will be made.
+                </h3>
+            </div>
             <br />
-            <h6 id="jsinformaltext">
-                <p>Hello! The browser you are using does not support JavaScript or you have it disabled. For more information about this message and JS information go <a href="./blog3.html">here</a>.</p>
+            <!--Below is the content of the page.-->
+            <h2 id="about-me">
+                <a href="./about-me.html">
+                    <strong>
+                        <code>About Me</code>
+                    </strong>
+                </a>
+            </h2>
+            <h2 id="blog">
+                <a href="./blog.html">
+                    <strong>
+                        <code>Blog</code>
+                    </strong>
+                </a>
+            </h2>
+            <h2 id="contact">
+                <a href="./contact.html">
+                    <strong>
+                        <code>Contact</code>
+                    </strong>
+                </a>
+            </h2>
+            <h2 id="welcometext">
+                Welcome to my website. This website is still a work in progress. As such all things are subject to change without notice. The biggest thing currently is finding inspiration/getting a suggestion for what the home page should
+                be like. (Other then navigation I need to find out what content to put below the navigational area.)
+            </h2>
+            <br />
+            <h2 id="projecttext">
+                This is going to be the section with all projects. Eventually I might make a seperate page.
+            </h2>
+            <!--This is the secton that is on every page and gives information about copyright and a link to the repository.-->
+            <br />
+            <h5 id="github">
+                <p>This website is on <a href="https://github.com/mhmatthewhugley/Website-MH-01">GitHub</a>.</p>
+            </h5>
+            <br />
+            <h6 id="copyright">Copyright © 2020,2021 Matthew Hugley. Some Rights Reserved.</h6>
+            <h6 id="notice-information">
+                <p><a href="./NOTICE.txt">Notice/Information</a>.</p>
             </h6>
             <br />
-        </noscript>
-        <h6 id="global-disclaimer">By using this website, you agree to the <a href="./disclaimers.html">Disclaimers</a> and the <a href="./privacy-policies.html">Privacy Policies</a>.</h6>
-        <h1><a href="https://mhmatthewhugley.github.io/Website-MH-01">Website-MH-01</a></h1>
-        <h3 id="home">
-            <strong>Home</strong>
-        </h3>
-        <div>
-            <br />
-            <h3 class="alertwarning"><strong>Warning!</strong> This message is about the original website which is at the domain name "matthewh.xyz". The website is currently showing a navigation section to browse the archived website.</h3>
-            <h3 class="alert">
-                <strong>Info!</strong> That domain name will be expiring soon, and once that happens it will be switched over to github(s) then the file(s) may be edited. And the github repository will either stay active for archival
-                purposes or it will be disabled and the repo will be archived and no further changes will be made.
-            </h3>
+            <h6 id="pageupdated">Updated on 2021-05-24.</h6>
         </div>
-        <br />
-        <!--Below is the content of the page.-->
-        <h2 id="about-me">
-            <a href="./about-me.html">
-                <strong>
-                    <code>About Me</code>
-                </strong>
-            </a>
-        </h2>
-        <h2 id="blog">
-            <a href="./blog.html">
-                <strong>
-                    <code>Blog</code>
-                </strong>
-            </a>
-        </h2>
-        <h2 id="contact">
-            <a href="./contact.html">
-                <strong>
-                    <code>Contact</code>
-                </strong>
-            </a>
-        </h2>
-        <h2 id="welcometext">
-            Welcome to my website. This website is still a work in progress. As such all things are subject to change without notice. The biggest thing currently is finding inspiration/getting a suggestion for what the home page should be
-            like. (Other then navigation I need to find out what content to put below the navigational area.)
-        </h2>
-        <br />
-        <h2 id="projecttext">
-            This is going to be the section with all projects. Eventually I might make a seperate page.
-        </h2>
-        <!--This is the secton that is on every page and gives information about copyright and a link to the repository.-->
-        <br />
-        <h5 id="github">
-            <p>This website is on <a href="https://github.com/mhmatthewhugley/Website-MH-01">GitHub</a>.</p>
-        </h5>
-        <br />
-        <h6 id="copyright">Copyright © 2020,2021 Matthew Hugley. Some Rights Reserved.</h6>
-        <h6 id="notice-information">
-            <p><a href="./NOTICE.txt">Notice/Information</a>.</p>
-        </h6>
-        <br />
-        <h6 id="pageupdated">Updated on 2021-05-24.</h6>
     </body>
 </html>
