@@ -1,18 +1,21 @@
 Notice
 
-Last updated: 2021-04-5
+Last updated: 2021-05-24
 
 All text, media, multimedia, and photos are licensed under CC-BY-SA-4.0 (Name of file is LICENSE.txt) unless otherwise stated.
 All code is licensed under Apache License 2.0 (Name of file is LICENSE2.txt) unless otherwise stated.
+The license information for the Dark Mode code is in the file "LICENSE3.tx".
 
 Contributors:
    Matthew Hugley mhmatthewhugley
    Nyatsuru
+   nathaniel
    [name] [username]
 
 Copyright holders:
    Copyright 2020,2021 Matthew Hugley
    Copyright 2021 Nyatsuru
+   Copyright 2021 nathaniel
    Copyright [yyyy] [name of copyright owner]
 
    APPENDIX: How to apply the Apache License to your work.
