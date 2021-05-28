@@ -1,2 +1,2 @@
-<script>var clicky_site_ids = clicky_site_ids || []; clicky_site_ids.push(101319182);</script>
-<script async src="//static.getclicky.com/js"></script>
+var clicky_site_ids = clicky_site_ids || []; clicky_site_ids.push(101319182);
+async src="//static.getclicky.com/js"
