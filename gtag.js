@@ -1,9 +1,2 @@
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-187215884-3"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'UA-187215884-3');
-</script>
+<script>var clicky_site_ids = clicky_site_ids || []; clicky_site_ids.push(101319182);</script>
+<script async src="//static.getclicky.com/js"></script>
