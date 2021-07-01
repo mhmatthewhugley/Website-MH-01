@@ -70,7 +70,7 @@ img {
     --text: black;
 }
 
-@media (prefers-color-scheme: dark) {
+@media (prefers-color-scheme: light) {
     :root {
         --bg: black;
         --text: white;
@@ -82,7 +82,7 @@ img {
     --text: white;
 }
 
-@media (prefers-color-scheme: dark) {
+@media (prefers-color-scheme: light) {
     #color-mode:checked ~ * {
         --bg: white;
         --text: black;
@@ -99,13 +99,13 @@ img {
     display: none;
 }
 
-@media (prefers-color-scheme: dark) {
+@media (prefers-color-scheme: light) {
     .dark-mode-hide {
         display: none;
     }
 }
 
-@media (prefers-color-scheme: dark) {
+@media (prefers-color-scheme: light) {
     .light-mode-hide {
         display: initial;
     }
