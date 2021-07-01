@@ -25,32 +25,38 @@ form {
     margin: auto;
     text-align: center;
 }
+
 img {
     width: 100%;
     height: auto;
 }
+
 .alert {
     padding: 20px;
     background-color: #2196f3;
     color: white;
     margin-bottom: 15px;
 }
+
 .alertwarning {
     padding: 20px;
     background-color: #ff9800;
     color: white;
     margin-bottom: 15px;
 }
+
 .table {
     font-size: 12px;
     border: 1px solid #ccc;
     font-family: Verdana, Geneva, sans-serif;
 }
+
 .table td {
     padding: 4px;
     margin: 3px;
     border: 1px solid #ccc;
 }
+
 .table th {
     background-color: #000000;
     color: #fff;
@@ -58,6 +64,7 @@ img {
 }
 
 /* Tutorial CSS starts here */
+
 :root {
     --bg: white;
     --text: black;
