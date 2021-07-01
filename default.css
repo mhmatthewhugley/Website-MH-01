@@ -166,11 +166,6 @@ label {
     user-select: none;
 }
 
-input[type="checkbox"]:focus + label {
-    outline: 2px dashed red;
-    outline-offset: 4px;
-}
-
 label:active {
     transform: translateY(1px);
     box-shadow: 0 1px var(--bg), 0 3px var(--text);
@@ -199,11 +194,4 @@ ul {
     list-style: none;
     margin: 0;
     padding-left: 1rem;
-}
-
-li:before {
-    margin-left: -1rem;
-    float: left;
-    content: "▸";
-    color: red;
 }
