@@ -109,17 +109,17 @@ img {
     max-width: 35rem;
 }
 
+html,
+body,
+div {
+    max-width: none;
+}
+
 /* Tutorial css ends here, the rest is extra styles for prettiness */
 
 :root {
     font-size: 16px;
     font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, Ubuntu, roboto, noto, segoe ui, arial, sans-serif;
-}
-
-html,
-body,
-div {
-    max-width: none;
 }
 
 p {
