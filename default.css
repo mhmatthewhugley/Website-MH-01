@@ -120,35 +120,10 @@ input[type="checkbox"] {
     position: absolute;
 }
 
-/* Tutorial css ends here, the rest is extra styles for prettiness */
-
-:root {
-    font-size: 16px;
-    font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, Ubuntu, roboto, noto, segoe ui, arial, sans-serif;
-}
-
-p {
-    line-height: 1.5;
-}
-
-code {
-    font-family: Menlo, Consolas, Monaco, Liberation Mono, Lucida Console, monospace;
-}
-
 html,
 body {
     padding: 0;
     margin: 0;
-}
-
-div > * + *,
-ul > * + * {
-    margin-top: 1.5rem;
-}
-
-::selection {
-    background: var(--text);
-    color: var(--bg);
 }
 
 label {
@@ -164,6 +139,31 @@ label {
     border-radius: 6px;
     box-shadow: 0 2px var(--bg), 0 4px var(--text);
     user-select: none;
+}
+
+/* Tutorial css ends here, the rest is extra styles for prettiness */
+
+:root {
+    font-size: 16px;
+    font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, Ubuntu, roboto, noto, segoe ui, arial, sans-serif;
+}
+
+p {
+    line-height: 1.5;
+}
+
+code {
+    font-family: Menlo, Consolas, Monaco, Liberation Mono, Lucida Console, monospace;
+}
+
+div > * + *,
+ul > * + * {
+    margin-top: 1.5rem;
+}
+
+::selection {
+    background: var(--text);
+    color: var(--bg);
 }
 
 label:active {
