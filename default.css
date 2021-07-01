@@ -104,16 +104,16 @@ img {
     }
 }
 
+* {
+    box-sizing: border-box;
+    max-width: 35rem;
+}
+
 /* Tutorial css ends here, the rest is extra styles for prettiness */
 
 :root {
     font-size: 16px;
     font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, Ubuntu, roboto, noto, segoe ui, arial, sans-serif;
-}
-
-* {
-    box-sizing: border-box;
-    max-width: 35rem;
 }
 
 html,
