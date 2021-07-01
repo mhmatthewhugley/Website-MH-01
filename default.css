@@ -115,6 +115,11 @@ div {
     max-width: none;
 }
 
+input[type="checkbox"] {
+    opacity: 0.00001;
+    position: absolute;
+}
+
 /* Tutorial css ends here, the rest is extra styles for prettiness */
 
 :root {
@@ -128,11 +133,6 @@ p {
 
 code {
     font-family: Menlo, Consolas, Monaco, Liberation Mono, Lucida Console, monospace;
-}
-
-input[type="checkbox"] {
-    opacity: 0.00001;
-    position: absolute;
 }
 
 html,
