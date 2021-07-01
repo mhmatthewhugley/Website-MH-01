@@ -171,17 +171,6 @@ label:active {
     box-shadow: 0 1px var(--bg), 0 3px var(--text);
 }
 
-label:after {
-    content: "✔\FE0E";
-    height: 1.2rem;
-    width: 1.2rem;
-    margin-left: 1rem;
-    border: solid 2px var(--bg);
-    text-align: center;
-    border-radius: 4px;
-    color: transparent;
-}
-
 #color-mode:checked + label:after {
     color: var(--bg);
 }
