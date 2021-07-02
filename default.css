@@ -72,10 +72,10 @@ img {
 /* Bottom Centered text */
 .bottomcentered {
     position: absolute;
-    top: 70%;
+    top: 71%;
     left: 50%;
     transform: translate(-50%, -50%);
-    font-size: 40px;
+    font-size: 27px;
     color: #f73f52;
 }
 
