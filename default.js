@@ -1,11 +1,11 @@
 function save() {
-    var checkbox = document.getElementById("checkbox1zaal1");
-    localStorage.setItem("checkbox1zaal1", checkbox.checked);
+    var checkbox = document.getElementById("color-mode");
+    localStorage.setItem("color-mode", checkbox.checked);
 }
 
 function load() {
-    var checked = JSON.parse(localStorage.getItem("checkbox1zaal1"));
-    document.getElementById("checkbox1zaal1").checked = localStorage.getItem("checkbox1zaal1") == "true";
+    var checked = JSON.parse(localStorage.getItem("color-mode"));
+    document.getElementById("color-mode").checked = localStorage.getItem("color-mode") == "true";
 }
 
 function wis() {
