@@ -65,8 +65,11 @@ img {
 
 /* Container holding the image and the text */
 .container {
-    position: relative;
+    position: absolute;
     text-align: center;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    top: 30%;
 }
 
 /* Bottom Centered text */
