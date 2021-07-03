@@ -13,10 +13,13 @@
     </head>
     <body>
         <!-- Below is Dark Mode and Light Mode. -->
-        <input id="color-mode" type="checkbox" name="color-mode" />
+        <script src="default.js"></script>
+        <input type="button" id="save" value="save" onclick="save()" />
+        <input type="button" id="delete" value="delete" onclick="wis()" />
+        <input id="color-mode" type="checkbox" name="color-mode" />Toggle Dark Or Light Mode.
         <label for="color-mode">
-            <span class="dark-mode-hide">Toggle Dark Or Light Mode. Dark Mode.</span>
-            <span class="light-mode-hide">Toggle Dark Or Light Mode. Light Mode.</span>
+            <span class="dark-mode-hide">Dark Mode.</span>
+            <span class="light-mode-hide">Light Mode.</span>
         </label>
         <div class="color-scheme-wrapper">
             <!--The line(s) of code below this coment is the Navigation Bar.-->
