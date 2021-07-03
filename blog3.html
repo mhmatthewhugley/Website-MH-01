@@ -12,7 +12,6 @@
     </head>
     <body>
         <!-- Below is Dark Mode and Light Mode. -->
-        <script src="default.js"></script>
         <input type="button" id="save" value="save" onclick="save()" />
         <input type="button" id="delete" value="delete" onclick="wis()" />
         <input id="color-mode" type="checkbox" name="color-mode" />Toggle Dark Or Light Mode.
@@ -20,6 +19,7 @@
             <span class="dark-mode-hide">Dark Mode.</span>
             <span class="light-mode-hide">Light Mode.</span>
         </label>
+        <script src="default.js"></script>
         <div class="color-scheme-wrapper">
             <!--The line(s) of code below this coment is the Navigation Bar.-->
             <ul class="menu">
@@ -89,7 +89,10 @@
             <h3 id="textthree">What works, dosent, and what it might affect.</h3>
             <li>Local Storage.</li>
             <br />
-            <p>Without JS you can not save or retrieve LocalStorage which means you cannot save the state of the checkbox for toggleing Dark/Light Mode. In this case a way around this while still having the functionality is setting dark mode at the Browser level or Operating System level.</p>
+            <p>
+                Without JS you can not save or retrieve LocalStorage which means you cannot save the state of the checkbox for toggleing Dark/Light Mode. In this case a way around this while still having the functionality is setting dark
+                mode at the Browser level or Operating System level.
+            </p>
             <!--This is the secton that is on every page and gives information about copyright and a link to the repository.-->
             <br />
             <h5 id="github">
