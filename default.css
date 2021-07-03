@@ -18,12 +18,20 @@ p,
 ul,
 ol,
 li,
-a,
 form {
     page-break-inside: avoid;
     max-width: 1000px;
     margin: auto;
     text-align: center;
+}
+
+/* Links */
+a {
+    page-break-inside: avoid;
+    max-width: 1000px;
+    margin: auto;
+    text-align: center;
+    color: #f73f52;
 }
 
 img {
