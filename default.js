@@ -1,5 +1,5 @@
 function save() {
-    txt = "Saved!";
+    confirm("Save?");
     var checkbox = document.getElementById("color-mode");
     localStorage.setItem("color-mode", checkbox.checked);
 }
@@ -10,7 +10,7 @@ function load() {
 }
 
 function wis() {
-    confirm("Are you sure? This will reload the page.");
+    confirm("Delete? This will reload the page.");
     location.reload();
     localStorage.clear();
 }
