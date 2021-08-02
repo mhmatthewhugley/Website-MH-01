@@ -18,6 +18,8 @@ p,
 ul,
 ol,
 li,
+details,
+summary,
 form {
     page-break-inside: avoid;
     max-width: 1000px;
