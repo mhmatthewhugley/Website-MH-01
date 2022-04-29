@@ -1,0 +1,81 @@
+<!DOCTYPE html []>
+<html>
+    <head>
+        <!--Below is basic stuff.-->
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="author" content="Matthew Hugley" />
+        <meta name="description" content="Main Page." />
+        <title>Home | Website-MH-01</title>
+        <link rel="shortcut icon" type="image/png" href="favicon.png?" />
+        <link rel="stylesheet" type="text/css" href="default.css" media="all" />
+    </head>
+    <body>
+        <!-- Below is Dark Mode and Light Mode. -->
+        <script src="default.js"></script>
+        <input type="button" id="save" value="save" onclick="save()" />
+        <input type="button" id="delete" value="delete" onclick="wis()" />
+        <input id="color-mode" type="checkbox" name="color-mode" />
+        <label for="color-mode">
+            <span class="dark-mode-hide">Toggle Dark Mode.</span>
+            <span class="light-mode-hide">Toggle Light Mode.</span>
+        </label>
+        <div class="color-scheme-wrapper">
+            <!--The line(s) of code below this coment is the Navigation Bar.-->
+            <ul class="menu">
+                <li class="menuitem"><a href="./index.html">HomePage</a></li>
+                <li class="menuitem"><a href="./blog.html">Blog</a></li>
+                <li class="logo"><img src="logo_transparent.png" width="100%" alt="OnTheGoTechnology Logo" /></li>
+                <li class="menuitem"><a href="./about-me.html">About Me</a></li>
+                <li class="menuitem"><a href="./contact.html">Contact</a></li>
+            </ul>
+            <!--This secton is the information js message, global-disclaimer and this section says what page you are on and a link to the primary page of the website.-->
+            <noscript>
+                <br />
+                <h6 id="jsinformaltext">
+                    <p>Hello! The browser you are using does not support JavaScript or you have it disabled. For more information about this message and JS information go <a href="./blog3.html">here</a>.</p>
+                </h6>
+                <br />
+            </noscript>
+            <h6 id="global-disclaimer">By using this website, you agree to the <a href="./disclaimers.html">Disclaimers</a> and the <a href="./privacy-policies.html">Privacy Policies</a>.</h6>
+            <h2>If you click the button bellow, you will go back a page (based on browser history).</h2>
+            <form>
+                <input type="button" value="Go back!" onclick="history.back()" />
+            </form>
+            <h3 id="home">
+                <strong>Home</strong>
+            </h3>
+            <div hidden>
+                <br />
+                <details>
+                    <summary>Alert(s)</summary>
+                    <h3 class="alertwarning"><strong>Warning!</strong> Hello, these are open.</h3>
+                    <h3 class="alert"><strong>Info!</strong> By default when in use.</h3>
+                </details>
+            </div>
+            <br />
+            <!--Below is the content of the page.-->
+            <h2 id="welcometext">
+                Welcome to my website. This website is still a work in progress. As such all things are subject to change without notice. The biggest thing currently is finding inspiration/getting a suggestion for what the home page should
+                be like. (Other then navigation I need to find out what content to put below the navigational area.)
+            </h2>
+            <br />
+            <h2 id="projecttext">
+                This is going to be the section with all projects. Eventually I might make a seperate page. Or I will just continue having my projects listed as a blog when I write about them. I am not sure yet what would be best.
+            </h2>
+            <!--This is the secton that is on every page and gives information about copyright and a link to the repository.-->
+            <br />
+            <h5 id="github">
+                <p>This website is on <a href="https://github.com/mhmatthewhugley/Website-MH-01">GitHub</a>.</p>
+            </h5>
+            <br />
+            <h6 id="copyright">Copyright © 2020,2021 Matthew Hugley. Some Rights Reserved.</h6>
+            <h6 id="notice-information">
+                <p><a href="./NOTICE.txt">Notice/Information</a>.</p>
+            </h6>
+            <!-- Below is when the file was last updated on. -->
+            <br />
+            <h6 id="pageupdated">Updated on 2021-08-01.</h6>
+        </div>
+    </body>
+</html>
